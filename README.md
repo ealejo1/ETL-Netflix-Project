@@ -24,7 +24,7 @@ The first step of reading csv files is to read the csv using pandas dataframe. I
 
 **Figure 1**
 
-![GitHub Logo]()
+
 Format: ![Alt Text](https://github.com/ealejo1/ETL-Netflix-Project/blob/master/ETL%20Screenshots/ETL_Figure1.jpeg)
 
 ![](RackMultipart20200908-4-1wznvqx_html_6293c56a15fa4a8a.png)
@@ -34,7 +34,7 @@ Similarly, I also had to convert the titles csv into pandas dataframe. Based on 
 **Figure 2**
 
 ![](RackMultipart20200908-4-1wznvqx_html_41aac32d9ccde824.png)
-
+Format: ![Alt Text](https://github.com/ealejo1/ETL-Netflix-Project/blob/master/ETL%20Screenshots/ETL_Figure2.jpeg)
 **Transform**
 
 The second crucial step of cleaning up the datasets involves filtering out the unnecessary data. For both csv files, I had to eliminate all sets of data that had NaN inputted on certain titles. In order to eliminate the NaN values, I had to use dropna(inplace=True) for both data frames.
@@ -42,12 +42,14 @@ The second crucial step of cleaning up the datasets involves filtering out the u
 **Figure 3**
 
 ![](RackMultipart20200908-4-1wznvqx_html_42397634b1d62918.png)
+Format: ![Alt Text](https://github.com/ealejo1/ETL-Netflix-Project/blob/master/ETL%20Screenshots/ETL_Figure3.jpeg)
 
 As a result, 426 titles on rows had NaN values. The amount of rows on shows.csv were reduced from 1000 to 574.
 
 **Figure 4**
 
 ![](RackMultipart20200908-4-1wznvqx_html_97063a67d71960db.png)
+Format: ![Alt Text](https://github.com/ealejo1/ETL-Netflix-Project/blob/master/ETL%20Screenshots/ETL_Figure4.jpeg)
 
 Similarly, the titles csv was reduced from 6234 to 3774 rows respectively.
 
@@ -58,6 +60,7 @@ The last final step was to load the final output into a DataBase on PostgreSQL. 
 **Figure 5: Create schema.**
 
 ![](RackMultipart20200908-4-1wznvqx_html_175d88ae2c28e0a3.png) ![](RackMultipart20200908-4-1wznvqx_html_5bd07c0af3ae6474.png)
+Format: ![Alt Text](url)
 
 I connected the database using SQLAlchemy and utilized both data frames to SQL persistence.
 
@@ -68,18 +71,21 @@ In order to examine the effectiveness of database on PostgreSQL, I used my knowl
 **Figure 6**
 
 ![](RackMultipart20200908-4-1wznvqx_html_848f9b97a032c66d.png)
+Format: ![Alt Text](url)
 
 **Figure 7**
 
 I also experimented by extracting TV shows and Movies on Netflix that were produced and released in South Korea between 2012 and 2019.
 
 ![](RackMultipart20200908-4-1wznvqx_html_c235c2908a3696ef.png)
+Format: ![Alt Text](url)
 
 **Figure 8**
 
 Furthermore, I consolidated the data by focusing exclusively on TV shows that were produced and released in South Korea between 2012 and 2019.
 
 ![](RackMultipart20200908-4-1wznvqx_html_561d658b4ce69aa.png)
+Format: ![Alt Text](url)
 
 **Summary**
 
