@@ -24,6 +24,9 @@ The first step of reading csv files is to read the csv using pandas dataframe. I
 
 **Figure 1**
 
+![GitHub Logo]()
+Format: ![Alt Text](https://github.com/ealejo1/ETL-Netflix-Project/blob/master/ETL%20Screenshots/ETL_Figure1.jpeg)
+
 ![](RackMultipart20200908-4-1wznvqx_html_6293c56a15fa4a8a.png)
 
 Similarly, I also had to convert the titles csv into pandas dataframe. Based on this dataset, it was not necessary to encode the file into latin -1. Although it had more rows, columns and data compared to the shows csv, it was able to execute and read through all 6234 rows and 12 columns.
